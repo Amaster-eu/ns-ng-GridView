@@ -29,4 +29,3 @@ $ cd ns-ng-GridView
 $ npm install
 $ tns run ios
 ```
-

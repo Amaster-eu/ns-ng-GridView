@@ -1,15 +1,16 @@
 # NativeScript for Angular: GridView
 
 ![img](app/App_Resources/ScreenShot.png)
+
 *Screenshots of demo apps*
 
 A simple example of using a NativeScript + Angular. The GridView displays data in separate cells, each cell representing one data item. 
 
-> Make sure that you have NativeScript version ≥2.5 and Xcode. Instructions for installing the NativeScript please see (here)[https://github.com/Amaster-eu/Install-NativeScript].
+> Make sure that you have NativeScript version ≥2.5 and Xcode. Please see instructions for [installing the NativeScript](https://github.com/Amaster-eu/Install-NativeScript).
 
 Resources used plugins:
-+(NativeScript GridView)[https://github.com/PeterStaev/NativeScript-Grid-View]
-+(NativeScript Gradient)[https://github.com/EddyVerbruggen/nativescript-gradient]
+*[NativeScript GridView](https://github.com/PeterStaev/NativeScript-Grid-View)
+*[NativeScript Gradient](https://github.com/EddyVerbruggen/nativescript-gradient)
 
 > Update: With NativeScript 4.1 plugin *NativeScript Gradient* is no longer needed, because linear gradient support is now built-in. For example:
 > ```GridLayout {

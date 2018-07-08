@@ -1,0 +1,33 @@
+<ActionBar>
+  <StackLayout orientation="horizontal">
+    <Image src="res://logo" stretch="none" marginLeft="2" marginRight="10"></Image>
+    <Label text="GridView"></Label>
+  </StackLayout>
+</ActionBar>
+
+<GridLayout class="page" backgroundColor="lightgray" padding="4, 2">
+  <GridView row="0" [items]="items" orientation="vertical"
+            colWidth="184"
+            rowHeight="120">
+    <ng-template let-item="item" let-odd="odd">
+      <Gradient direction="to bottom" colors="white, #e3e3e3" borderRadius="5" marginBottom="4">
+        <StackLayout [nsRouterLink]="['/item', item.id]"
+                     width="184"
+                     height="116"
+                     padding="10"
+                     borderColor="#cccccc"
+                     borderWidth="1"
+                     borderRadius="5"
+                     verticalAlignment="stretch"
+                     class="list-group-item"
+                     [class.odd]="odd">
+          <Label verticalAlignment="center"
+                 [text]="item.name"
+                 class="list-group-item-text"
+                 textWrap="true">
+          </Label>
+        </StackLayout>
+      </Gradient>
+    </ng-template>
+  </GridView>
+</GridLayout>

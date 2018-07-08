@@ -6,8 +6,6 @@ A simple example of using a NativeScript + Angular. The GridView displays data i
 
 *Screenshots of demo apps*
 
-> Make sure that you have NativeScript version ≥2.5 and Xcode. Please see instructions for [installing the NativeScript](https://github.com/Amaster-eu/Install-NativeScript).
-
 Resources used plugins: [NativeScript GridView](https://github.com/PeterStaev/NativeScript-Grid-View) and [NativeScript Gradient](https://github.com/EddyVerbruggen/nativescript-gradient)
 
 > Update: With NativeScript 4.1 plugin *NativeScript Gradient* is no longer needed, because linear gradient support is now built-in. For example:
@@ -20,6 +18,8 @@ GridLayout {
 ```
 
 ## Installation
+
+> Make sure that you have NativeScript version ≥2.5 and Xcode. Please see instructions for [installing the NativeScript](https://github.com/Amaster-eu/Install-NativeScript).
 
 This repository includes NativeScript app only for iOS platform. In order to run those execute the following in your shell:
 
